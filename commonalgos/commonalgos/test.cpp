@@ -8,22 +8,19 @@ using namespace std;
 
 int main()
 {
-	int a[10];
+	int a[15];
 	//int length;
-	//GET_ARRAY_LENGTH(a,length);
-	for (int i = 0; i < 10; i++)
+	int length=GET_ARRAY_LENGTH(a,length);
+	for (int i = 0; i < length; i++)
 	{
-		a[i] = 50 ;
+		a[i] = rand()%100;
 		cout << a[i] << " ";
 	}
-	//Caonima
+	//
 	cout <<endl;
-	for (int j = 0; j < 10; j++)
-	{
-		cout << a[j] << " ";
-	}
-	quick_sort(a, 0, 9);
-	for (int j = 0; j < 10; j++)
+	
+	quick_sort(a, 0, length-1);
+	for (int j = 0; j < length; j++)
 	{
 		cout << a[j] << " ";
 	}
