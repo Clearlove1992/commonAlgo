@@ -8,7 +8,7 @@ using namespace std;
 
 int main()
 {
-	int a[15];
+	int a[16];
 	//int length;
 	int length=GET_ARRAY_LENGTH(a,length);
 	for (int i = 0; i < length; i++)
