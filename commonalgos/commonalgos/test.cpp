@@ -8,15 +8,13 @@ using namespace std;
 
 int main()
 {
-	int a[16];
-	//int length;
+	int a[1000];
 	int length=GET_ARRAY_LENGTH(a,length);
 	for (int i = 0; i < length; i++)
 	{
-		a[i] = rand()%100;
+		a[i] = rand()%5000;
 		cout << a[i] << " ";
 	}
-	//
 	cout <<endl;
 	
 	quick_sort(a, 0, length-1);
