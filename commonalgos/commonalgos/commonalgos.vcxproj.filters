@@ -29,5 +29,17 @@
     <ClInclude Include="merge_sort.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="bubble_sort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sort_name.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="insert_sort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="heap_sort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
