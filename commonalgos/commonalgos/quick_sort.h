@@ -1,7 +1,7 @@
 #ifndef _QUICKSORT_H_
 #define _QUICKSORT_H_
-template<typename T>
-void quick_sort(T a[], int left, int right)
+
+void quick_sort(int a[], int left, int right)
 {
 	if (left >= right)
 		return ;
